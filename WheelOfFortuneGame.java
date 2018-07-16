@@ -361,25 +361,6 @@ public class WheelOfFortuneGame{
     }
     return newPhrase;
   }
-  //old one 
-//  public static String phraseDisplay (String phrase, char playerGuess, String newPhrase){
-//    int length = phrase.length();
-//    String playerGuessStr = playerGuess+"";
-//    String emptySlot="_ ";
-//    String emptySpace=" ";
-//    for (int i = 0; i <= length-1; i++){
-//      String letter = Character.toString(phrase.charAt(i)); 
-//      if (letter.equalsIgnoreCase(playerGuessStr))
-//        newPhrase=newPhrase+letter;
-//      else if (letter.equals(emptySpace))
-//        newPhrase = newPhrase+"  ";
-//      else
-//        newPhrase=newPhrase+emptySlot;
-//      
-//    }
-//    return newPhrase;
-//  }
-  
   
   //----------------------------readName()--Anika---------------------------------
   public static String readName(String playerName)throws IOException{
