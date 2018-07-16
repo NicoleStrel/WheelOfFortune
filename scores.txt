@@ -1,0 +1,2 @@
+example1	500
+example2	0
